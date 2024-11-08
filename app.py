@@ -712,5 +712,5 @@ elif page == "Prediction":
 # Footer
 st.sidebar.markdown("""
 ---
-**Developed by [Hamza Shaikh]**
+**Developed by Anurag Parsi**
 """)
