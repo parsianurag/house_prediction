@@ -384,7 +384,7 @@ elif page == "Geospatial Analysis":
             mumbai_map = folium.Map(location=[19.0760, 72.8777], zoom_start=11)
             for i, row in data.iterrows():
                 folium.CircleMarker(location=[row['Latitude'], row['Longitude']], radius=5, color='blue', fill=True, fill_color='blue').add_to(mumbai_map)
-            folium_static(mumbai_map)
+            st_folium(mumbai_map)
 
             st.info("This map visualizes the distribution of house prices across Mumbai using Folium. Each blue circle represents a house.")
 
@@ -474,7 +474,7 @@ elif page == "Filterized Data":
                           popup=f"Price: {row['Price']} Lakhs\nArea: {row['Area']} sq. ft.\nLocation: {row['Location']}",
                           icon=folium.Icon(color='red', icon='info-sign')
                           ).add_to(folium_map)
-        folium_static(folium_map)
+        st_folium(folium_map)
 
 
     # Streamlit App Layout
