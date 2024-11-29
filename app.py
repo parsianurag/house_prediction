@@ -720,7 +720,7 @@ with st.container():
 # Footer
 st.sidebar.markdown("""
 ---
-**Developed by Anurag Parsi**
+**Developed by Anurag Parsi & Anirudh Parsi**
 """)
 
 
