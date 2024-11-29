@@ -19,7 +19,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import plotly.express as px
 import plotly.graph_objects as go
 import folium
-from streamlit_folium import folium_static
+from streamlit_folium import st_folium
 
 # To handle file & tasks
 import os
