@@ -721,6 +721,7 @@ with st.container():
 st.sidebar.markdown("""
 ---
 **Developed by Anurag Parsi &
+               
                Anirudh Parsi**
 """)
 
